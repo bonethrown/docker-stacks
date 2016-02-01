@@ -58,6 +58,11 @@ RUN conda create -p $CONDA_DIR/envs/python2 python=2.7 \
     'dill=0.2*' \
     'numba=0.22*' \
     'bokeh=0.10*' \
+    'plotly=1.9*' \
+    'numpy=1.10*' \
+    'urllib3=1.7*' \
+    'tensorflow=0.6*' \
+    
     pyzmq \
     && conda clean -yt
 
